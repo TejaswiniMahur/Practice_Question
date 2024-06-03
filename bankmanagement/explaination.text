@@ -1,0 +1,10 @@
+Explanation
+Encapsulation: The BankAccount class and its subclasses encapsulate their respective properties (accountNumber, balance, accountHolderName, interestRate, overdraftLimit) and provide public methods to interact with these properties, ensuring controlled access.
+
+Inheritance: The SavingsAccount and CurrentAccount classes inherit from the BankAccount class, allowing them to reuse and extend its functionality.
+
+Polymorphism: The withdraw method is overridden in the CurrentAccount class to provide additional behavior for overdraft limits, demonstrating polymorphism.
+
+Abstraction: The BankAccount class serves as a general template for bank accounts, while SavingsAccount and CurrentAccount provide specific implementations for different types of accounts.
+
+This code demonstrates the core principles of OOP in a simple banking system.
