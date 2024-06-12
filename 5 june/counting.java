@@ -18,4 +18,4 @@ public class counting {
     }
 
 
-}  input {1,1,1,1,2,2,3,3} output{412223}
+} 
