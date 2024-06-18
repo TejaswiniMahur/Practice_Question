@@ -6,17 +6,15 @@ public class star5 {
         System.out.println("enter rows");
         Scanner sc = new Scanner(System.in);
         n = sc.nextInt();
-        m = sc.nextInt();
         for (int i=1;i<=n;i++){
-            for(int j=1;j<=m;j++){
-                if(i==1||j==1||i==m||j==n){
-            System.out.print(" ");
-            }else{
+            for(int j=1;j<=n;j++){
+                if(i==1||j==1||i==n||j==n){
             System.out.print("*");
+            }else{
+            System.out.print(" ");
             }
-           System.out.println();
         }
-        
+        System.out.println();
     }    
 }
     

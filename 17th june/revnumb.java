@@ -11,13 +11,11 @@ public class revnumb {
     temp = num;
 
     while (temp!=0) {
-        num/=10; 
-        rem=10%num;
+        rem=temp%10;
         rev=rev*10 + rem;
+        temp/=10; 
     }
     System.out.println("reversed number:"+rev);
         
-    }
-    
-    
+    }        
 }
